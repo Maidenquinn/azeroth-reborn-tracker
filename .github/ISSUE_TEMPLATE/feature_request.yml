@@ -1,7 +1,7 @@
 name: "Suggestion"
 description: "Propose an improvement for review"
 title: "[SUG] "
-labels: ["type: suggestion", "status: needs-review"]
+labels: ["enhancement"]
 body:
   - type: textarea
     id: problem
