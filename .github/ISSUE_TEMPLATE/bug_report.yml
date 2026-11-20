@@ -1,0 +1,47 @@
+name: "Bug report"
+description: "Report a reproducible game problem"
+title: "[BUG] "
+labels: ["type: bug", "status: needs-review"]
+body:
+  - type: markdown
+    attributes:
+      value: "Only submit Discord content or screenshots you have permission to publish. Do not include account credentials or private player information."
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: What is wrong?
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Reproduction steps
+      placeholder: "1. Select mode ...\n2. Equip ...\n3. Observe ..."
+  - type: textarea
+    id: observed
+    attributes:
+      label: Actual behavior
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+  - type: input
+    id: mode
+    attributes:
+      label: Mode / class / game version
+      placeholder: "Classic; version unknown"
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence and screenshots
+      description: Link approved images or attach safe screenshots.
+  - type: input
+    id: source
+    attributes:
+      label: Original Discord report URL
+      description: Add only if permitted to disclose.
+  - type: textarea
+    id: notes
+    attributes:
+      label: Related reports / verification notes
