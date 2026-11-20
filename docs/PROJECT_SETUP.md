@@ -1,36 +1,26 @@
-# GitHub Project board configuration
+# GitHub Project board
 
-The GitHub connector used to publish this repository does **not** expose creation of GitHub Projects or custom labels. These need a repository owner/maintainer with GitHub Projects permissions.
+Create **Reborn Community Tracker** as a GitHub Project in board layout and link this repository's Issues. Creation of GitHub Projects and custom labels is not available through the currently connected GitHub integration.
 
-Suggested project: **Reborn Community Tracker**, using the **Board** layout with a custom single-select **Status** field:
+Suggested statuses: Needs Review, To Do, In Progress, Testing, Done.
 
-1. Needs Review
-2. To Do
-3. In Progress
-4. Testing
-5. Done
+Suggested separate single-select fields:
+- **Type:** Bug, Suggestion
+- **Priority:** Critical, High, Medium, Low
+- **Decision:** Proposed, Needs Discussion, Accepted, Rejected, Duplicate
 
-Add custom single-select fields **Priority** (Critical, High, Medium, Low) and **Decision** (Proposed, Needs Discussion, Accepted, Rejected, Duplicate). Suggested separate views: All, Bugs, Suggestions, Critical, Recently Updated.
+Suggested views: All issues, Bugs, Suggestions, Critical, Recently updated.
 
-Suggested labels:
+GitHub Issue templates are already present for both report types. A status reflects developer/staff-confirmed progress, not ChatGPT's assumption.
 
-- `type: bug`, `type: suggestion`
-- `status: needs-review`, `status: to-do`, `status: in-progress`, `status: testing`, `status: done`
-- `priority: critical`, `priority: high`, `priority: medium`, `priority: low`
-- `decision: needs-discussion`, `decision: accepted`, `decision: rejected`, `decision: duplicate`
-- `area: gameplay`, `area: balance`, `area: items`, `area: ui-ux`, `area: performance`
+## Maintenance
 
-Avoid marking bugs as **Done** purely because a GitHub issue was closed. Require an explicit verification or staff decision.
+The moderator invokes a ChatGPT audit on demand; no Discord bot or continuous monitoring is involved. During the audit, review accessible Discord source material, compare with Issues, publish approved summaries and update statuses only based on verifiable evidence.
 
-When the project is created, enable automatic addition of Issues from this repo and sync the `Status` field to the board. Public GitHub Projects may expose issue descriptions or metadata: follow the publication policy below.
+This repository is public. Do not copy private messages, usernames or screenshots without permission. See [manual review](MANUAL_REVIEW.md).
 
-## Publication policy
+## Current limitations
 
-The source Discord community channels are not implicitly public-domain. Obtain SNX/server administrator permission before reading the full history through a bot and get permission before *republishing* screenshots, player identities, and message content to this public repository. Paraphrase and remove personal information; store restricted evidence outside the public repo.
-
-## Current state
-
-- Repository and issue templates: included.
-- Example issue from SNX: tracked.
-- GitHub Project itself: **not yet created**.
-- Discord automatic sync: **not deployed**.
+- GitHub Project not yet created.
+- Custom labels not yet created.
+- No automated Discord access or live sync (by design).
