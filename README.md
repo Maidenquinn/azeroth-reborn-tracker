@@ -8,7 +8,7 @@ Community-maintained bug reports and suggestions for Azeroth Survivors: Reborn.
 
 - **[Live GitHub Projects Kanban](https://github.com/users/Maidenquinn/projects/1/views/1)** · [All Issues](../../issues)
 - [Report a bug](../../issues/new?template=bug_report.yml) · [Suggest an improvement](../../issues/new?template=feature_request.yml)
-- [Manual audit guide](docs/MANUAL_REVIEW.md) · [Review checklist](docs/REVIEW_CHECKLIST.md) · [Audit log](docs/AUDIT_LOG.md)
+- [Manual audit guide](docs/MANUAL_REVIEW.md) · [Review checklist](docs/REVIEW_CHECKLIST.md) · [Audit log](docs/AUDIT_LOG.md) · [Changelog cross-check](docs/CHANGELOG_CROSSCHECK_2026-11-20.md)
 - [Discord Bug Reports](https://discord.com/channels/1567264381929259189/1571654342023581696) · [Suggestions Forum](https://discord.com/channels/1567264381929259189/1569325066553000006)
 
 ## Tracking
@@ -37,4 +37,4 @@ The moderator requests an audit whenever desired. ChatGPT reads only Discord mes
 - [#2 — Finalize board metadata](../../issues/2) — project exists; optional fields and views remain.
 - [#3 — Complete historical Discord audit](../../issues/3) — initial partial snapshot done; older history, thread replies and screenshots remain.
 
-**First partial browser audit completed on 2026-11-20:** 14 community Issues (#5–#18) added from visible Discord messages and forum previews. This was **not** a complete historical scan; screenshots and archived topics are still pending review. See the [audit log](docs/AUDIT_LOG.md). The project may be transferred to the official Reborn team with their agreement.
+**First partial browser audit completed on 2026-11-20:** 14 community Issues (#5–#18) added from visible Discord messages and forum previews. The official 0.7.0–0.7.4 changelogs were subsequently reviewed: #15 was closed as shipped in 0.7.4, and #9 was flagged as probably fixed pending retest. This was **not** a complete historical scan; screenshots and archived topics are still pending review. See the [audit log](docs/AUDIT_LOG.md). The project may be transferred to the official Reborn team with their agreement.
