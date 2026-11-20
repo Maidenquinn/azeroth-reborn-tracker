@@ -60,4 +60,4 @@ See the [priority tracker](PRIORITIES.md) for triage and retest items.
 
 ## Issue sources and image review
 
-Added and verified direct Discord message or forum links on all 54 audit Issues (#5–#58). Forum and message access remains subject to Discord permissions. Two crops were reviewed for Auto Shot (#7) and Deathbringer’s Will (#11). Publication of those images on the public repository is pending explicit approval. The Hunter comparison (#8) includes player identifiers and needs redaction. The mobile graphics report (#45) links directly to its original image message. Remaining evidence, archive coverage and Kanban checks are tracked in #3.
+Added and verified direct Discord message or forum links on all 54 audit Issues (#5–#58). Forum and message access remains subject to Discord permissions. The approved gameplay crops are embedded in the Auto Shot (#7) and Deathbringer’s Will (#11) Issues. The Hunter comparison (#8) includes player identifiers and needs redaction. The mobile graphics report (#45) links directly to its original image message. Remaining evidence, archive coverage and Kanban checks are tracked in #3.
