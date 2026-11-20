@@ -35,6 +35,6 @@ The moderator requests an audit whenever desired. ChatGPT reads only Discord mes
 
 - [#1 — Cataclysm trinkets in Classic](../../issues/1) — SNX report, unverified.
 - [#2 — Finalize board metadata](../../issues/2) — project exists; optional fields and views remain.
-- [#3 — First manual Discord audit](../../issues/3) — pending access to source messages.
+- [#3 — Complete historical Discord audit](../../issues/3) — initial partial snapshot done; older history, thread replies and screenshots remain.
 
-**No Discord history has yet been audited.** The project may be transferred to the official Reborn team with their agreement.
+**First partial browser audit completed on 2026-11-20:** 14 community Issues (#5–#18) added from visible Discord messages and forum previews. This was **not** a complete historical scan; screenshots and archived topics are still pending review. See the [audit log](docs/AUDIT_LOG.md). The project may be transferred to the official Reborn team with their agreement.
