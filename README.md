@@ -6,8 +6,8 @@ Community-maintained bug reports and suggestions for Azeroth Survivors: Reborn.
 
 ## Quick links
 
-- [Issues](../../issues) · [Report a bug](../../issues/new?template=bug_report.yml) · [Suggest an improvement](../../issues/new?template=feature_request.yml)
-- [Kanban setup](docs/PROJECT_SETUP.md) · [Manual review workflow](docs/MANUAL_REVIEW.md)
+- **[Current board](BOARD.md)** · [Issues](../../issues) · [Report a bug](../../issues/new?template=bug_report.yml) · [Suggest an improvement](../../issues/new?template=feature_request.yml)
+- [Kanban setup](docs/PROJECT_SETUP.md) · [Manual review workflow](docs/MANUAL_REVIEW.md) · [Review checklist](docs/REVIEW_CHECKLIST.md) · [Audit log](docs/AUDIT_LOG.md)
 - [Discord bug reports](https://discord.com/channels/1567264381929259189/1571654342023581696)
 - [Discord suggestions forum](https://discord.com/channels/1567264381929259189/1569325066553000006)
 
@@ -31,6 +31,10 @@ A Discord link alone does not guarantee access to the message or attachment. If 
 Needs Review → To Do → In Progress → Testing → Done.
 
 Suggested distinct dimensions: **Type** (Bug/Suggestion), **Priority** (Critical/High/Medium/Low) and **Decision** (Proposed/Needs Discussion/Accepted/Rejected/Duplicate). See [board setup](docs/PROJECT_SETUP.md).
+
+## Project status
+
+The interim [board](BOARD.md) is live as a Markdown view. A native drag-and-drop GitHub Project has **not** yet been created; the connected GitHub integration does not currently expose that operation. The first full Discord audit is also pending access to the actual message content.
 
 ## Initial issues
 
