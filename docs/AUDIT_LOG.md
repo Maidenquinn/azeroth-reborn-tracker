@@ -19,3 +19,33 @@
 Load older Bug Reports and Questions & Help message history and open the Suggestions Forum threads individually (including archived ones), inspect available attachments in context, acquire original Discord message permalinks, and check against all current Issues before creating new ones.
 
 For every further audit, record: checked time range; channels/threads reached; created/updated/merged counts; screenshot review and redaction; and inaccessible segments. Do not describe an incomplete snapshot as exhaustive.
+
+## Historical review follow-up — 2026-11-20
+
+**Coverage status: partial.** Requested start: Nov 10 inclusive (Europe/Paris).
+
+| Source | Evidence captured | Outstanding verification |
+| --- | --- | --- |
+| Bug Reports | 197 unique visible messages, from the channel welcome on Nov 16 at 00:09 to Nov 20 at 08:35. | The beginning was reached. The Discord thread panel listed no threads. Some attachments still require visual inspection. |
+| Questions & Help | 105 unique visible messages, from the channel welcome on Nov 16 at 00:08 to Nov 20 at 11:57. | The beginning was reached. The Discord thread panel listed no threads. Several screenshots and support references still require visual inspection or classification. |
+| Suggestions Forum | 71 observed topics created in the window out of 75 indexed topics. 16 in-window threads opened. Forum listing checked under activity and creation-date ordering. | 55 identified in-window threads still require opening. Exhaustive historical activity on older topics, archived or restricted topics, and thread attachments is unverified. One direct-link attempt in a new tab led to Discord sign-in. |
+| Official changelogs | 41 posts covering 0.6.1–0.7.4 from Nov 12 to Nov 20, from the beginning of the visible channel. | Earlier Nov 10–11 releases were not visible in this channel. Release notes establish the published changes. Retests remain separate. |
+| GitHub | Matched observations against the 18 Issues present at the start, including their comments. Created #19–#44 and enriched existing matching Issues. | #3 remains open for full coverage. The project listed #5, #6 and #7 under Needs Review and #15 and #23 under Done. Pending cards and priorities are tracked below. |
+
+The prior source date on #13 was corrected. Item identification from the image narrowed #11 to Deathbringer’s Will. The launcher reports were split by symptom: #10 for slow transfer/browser loading and #22 for an update that can stop and launch the preceding version. The supporting media and exact Discord member-area message links stay out of the public repository.
+
+### Published corrections and related changes
+
+| Release | Match and disposition |
+| --- | --- |
+| 0.6.4 | Level-up cards pause co-op revive and preserve progress. #25 checks whether the report concerned a different card type or current-build behavior. |
+| 0.6.8 | Preserve stored level-ups after jewelry choices, persist interface scale, and keep Hurricane and related effects ticking during co-op cards. Correct the Ashen Band of Destruction's upgrade wording and Echo's misleading overflow above 100%. Fix two known long-run FPS mechanisms. #35 retains the current-build performance retest. |
+| 0.6.8 / 0.6.9 | Correct Fire Cat's white shop texture and, separately, buried enemies and ground placement. Skin persistence on co-op rejoin and the later Lady Deathwhisper report need separate verification. 0.6.9 also corrects missing or stale armory gear for the documented cases. |
+| 0.7.0 / 0.7.1 | Improve rerolls and limit multiple healing rings/trinkets in offers. Show remaining files at the end of an update and fix a first-start crash. #20 and #22 retain the narrower symptoms. |
+| 0.7.2 / 0.7.3 | Correct inaccessible guardian lairs, Pandaren helms, Cataclysm minimap artwork and Vashj’ir pursuit. Version 0.7.3 also makes shirts hideable and restores the starting shirt. #24 (Uldum marker overlay) and #26 (guardian presence) call for separate tests. |
+| 0.7.4 | Publishes Netherwind Blizzard visual following (#23, closed), Vashj’ir spawning depth and swimming speed (#9, retest), local time API and racial/passive API (#15), Death Knight HD elf eyes, Elementium Signet icon, Dragon Soul boundaries/rescue, and ground-effect projection onto high walls. |
+| 0.7.4 | Daily and weekly quests and a Badge of Justice cosmetic vendor now match the core forum proposal. Exact rewards and optional constraints in the discussion still require design review if pursued. |
+
+The Dragon Soul thread contained three image posts. The inspected image showed the character below the normal battlefield. Version 0.7.4 documents a narrower starting arena and return after falls. A current-build recurrence is needed to establish the reported position still occurs. Time Fracture’s portal Echo behavior was explained as intentional for balance. Individual account, moderation, and access-support cases were kept out of the public game tracker.
+
+See the [priority tracker](PRIORITIES.md) for triage and retest items.
