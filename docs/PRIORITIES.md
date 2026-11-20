@@ -14,3 +14,14 @@ Priorities are provisional and describe what to verify first. New community repo
 | Published, closed | [#15](../../issues/15), [#23](../../issues/23) | Version 0.7.4 documents addon access to racial/passive information and the Netherwind Blizzard visual correction. |
 
 [GitHub Project](https://github.com/users/Maidenquinn/projects/1/views/1) — verified #5, #6 and #7 in **Needs Review**, and #15 and #23 in **Done**. Remaining cards auto-added to the board may still show the default **Todo** status. In particular, #9 is a candidate for **Testing** and the open High-priority reports above are candidates for **Needs Review**. The card-status view failed during further updates. The [audit log](AUDIT_LOG.md) records the remaining source coverage.
+
+## Forum backlog follow-up
+
+| Priority | Issues | Verification |
+| --- | --- | --- |
+| High | [#45](../../issues/45) | Retest intermittent mobile freezes and graphics-device loss on the current build with memory diagnostics. |
+| Medium | [#46](../../issues/46), [#47](../../issues/47), [#49](../../issues/49), [#50](../../issues/50) | Boss stun display versus cast behavior, touch talent tooltip access, talent point budget, and Warlock rank details. |
+| Medium | [#48](../../issues/48), [#51](../../issues/51), [#53](../../issues/53), [#57](../../issues/57), [#58](../../issues/58) | Evaluate pre-run exclusions, capped offers, barrier refresh, DoT targeting, and coordinated endgame encounters. |
+| Low | [#52](../../issues/52), [#54](../../issues/54), [#55](../../issues/55), [#56](../../issues/56) | Named loadouts, audio controls, HUD visibility, and lobby sorting. |
+
+Priority recommendations are recorded on the Issues. The project status for this new batch has yet to be verified.
