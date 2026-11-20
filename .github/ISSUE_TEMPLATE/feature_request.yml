@@ -1,0 +1,38 @@
+name: "Suggestion"
+description: "Propose an improvement for review"
+title: "[SUG] "
+labels: ["type: suggestion", "status: needs-review"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Player problem / use case
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives or trade-offs
+  - type: textarea
+    id: impact
+    attributes:
+      label: Benefits, scope and feasibility assumptions
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Approved screenshots / mockups / links
+  - type: input
+    id: source
+    attributes:
+      label: Discord source URL
+  - type: textarea
+    id: review
+    attributes:
+      label: Staff review notes
+      description: Recommendations are not acceptance decisions.
