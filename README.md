@@ -2,44 +2,39 @@
 
 Community-maintained bug reports and suggestions for Azeroth Survivors: Reborn.
 
-> This is an unofficial tracker, not a developer roadmap. Only SNX/the developers can confirm acceptance, work in progress, fixes or rejections.
+> Unofficial community tracker. Only SNX and the game developers confirm implementation, acceptance, testing or rejection.
 
 ## Quick links
 
-- **[Current board](BOARD.md)** · [Issues](../../issues) · [Report a bug](../../issues/new?template=bug_report.yml) · [Suggest an improvement](../../issues/new?template=feature_request.yml)
-- [Kanban setup](docs/PROJECT_SETUP.md) · [Manual review workflow](docs/MANUAL_REVIEW.md) · [Review checklist](docs/REVIEW_CHECKLIST.md) · [Audit log](docs/AUDIT_LOG.md)
-- [Discord bug reports](https://discord.com/channels/1567264381929259189/1571654342023581696)
-- [Discord suggestions forum](https://discord.com/channels/1567264381929259189/1569325066553000006)
+- **[Live GitHub Projects Kanban](https://github.com/users/Maidenquinn/projects/1/views/1)** · [All Issues](../../issues)
+- [Report a bug](../../issues/new?template=bug_report.yml) · [Suggest an improvement](../../issues/new?template=feature_request.yml)
+- [Manual audit guide](docs/MANUAL_REVIEW.md) · [Review checklist](docs/REVIEW_CHECKLIST.md) · [Audit log](docs/AUDIT_LOG.md)
+- [Discord Bug Reports](https://discord.com/channels/1567264381929259189/1571654342023581696) · [Suggestions Forum](https://discord.com/channels/1567264381929259189/1569325066553000006)
 
-## How this tracker is maintained
+## Tracking
 
-**No Discord bot and no automatic monitoring.** A moderator asks ChatGPT for an audit whenever needed (daily, every few days, or ad hoc). During each audit, the moderator provides accessible Discord content or opens the relevant Discord pages for review. ChatGPT reviews available messages and threads, compares them with existing Issues, creates or updates verified tickets, links approved screenshots and sources, and summarizes changes.
+The native GitHub Project **Azeroth Reborn - Community Tracker** is now created, linked to this repository, and its board has five columns: **Needs Review, Todo, In Progress, Testing, Done**. The current board was initially populated with three open Issues. The single bug report [#1](../../issues/1) is still **unconfirmed**, and should be moved from the default Todo column to Needs Review until evidence is available.
 
-A Discord link alone does not guarantee access to the message or attachment. If the Discord content cannot be read through the available tools, a moderator will need to supply an export or the relevant messages/screenshots.
+GitHub Projects field and status edits cannot currently be made with the connected GitHub integration. A moderator can drag cards within the board itself. For layout and optional custom fields, see [configuration](docs/PROJECT_SETUP.md).
+
+## On-demand Discord reviews — no bot
+
+The moderator requests an audit whenever desired. ChatGPT reads only Discord messages and attachments that are accessible in that session or provided as an authorized export, checks existing open/closed Issues, identifies duplicates, enriches reports, and creates/updates Issues directly on GitHub. No automatic monitoring, Discord bot or scheduled collection is used. A Discord URL alone is not sufficient access to message history.
 
 ### Editorial rules
 
-1. Check existing Issues before creating a new one; merge repeated reports into one issue and keep relevant source links.
-2. Clearly separate observed facts, player claims, and suggested priorities.
-3. Leave unclear reports in **Needs Review**; never invent missing steps or confirmed fixes.
-4. Do not mark an issue **In Progress**, **Testing**, **Fixed**, **Accepted**, or **Rejected** without a reliable staff/developer source.
-5. Only publish messages, player details or screenshots to this **public** repository with appropriate authorization; summarize/redact otherwise.
-6. During later audits, preserve existing ticket history and update the issue rather than creating duplicates.
-
-### Status convention
-
-Needs Review → To Do → In Progress → Testing → Done.
-
-Suggested distinct dimensions: **Type** (Bug/Suggestion), **Priority** (Critical/High/Medium/Low) and **Decision** (Proposed/Needs Discussion/Accepted/Rejected/Duplicate). See [board setup](docs/PROJECT_SETUP.md).
-
-## Project status
-
-The interim [board](BOARD.md) is live as a Markdown view. A native drag-and-drop GitHub Project has **not** yet been created; the connected GitHub integration does not currently expose that operation. The first full Discord audit is also pending access to the actual message content.
+1. Keep bug reports and suggestions in English, with direct source links when authorized.
+2. Separate player claims, observed evidence and provisional priority recommendations.
+3. Never fabricate reproduction steps, screenshots, fixes, assignments or developer decisions.
+4. Only put confirmed progress into In Progress, Testing or Done.
+5. This repo and its project links are public-facing: do not copy private Discord content, player identifiers or screenshots without permission.
+6. Add an audit coverage record for each review, including inaccessible channels/threads.
+7. Preserve existing Issue history and link duplicate reports to one canonical Issue.
 
 ## Initial issues
 
-- [#1 — Cataclysm trinkets in Classic](../../issues/1): based on a specific comment from SNX, still needs reproduction evidence.
-- [#2 — Configure the Kanban](../../issues/2): GitHub Projects board must still be created.
-- [#3 — First manual Discord audit](../../issues/3): start when Discord data is accessible.
+- [#1 — Cataclysm trinkets in Classic](../../issues/1) — SNX report, unverified.
+- [#2 — Finalize board metadata](../../issues/2) — project exists; optional fields and views remain.
+- [#3 — First manual Discord audit](../../issues/3) — pending access to source messages.
 
-No Discord data has been imported yet. The repository is public and may be transferred to the official Reborn team with their agreement.
+**No Discord history has yet been audited.** The project may be transferred to the official Reborn team with their agreement.
